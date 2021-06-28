@@ -1,0 +1,90 @@
+body{
+    background:#CCFF00;
+    font-size: 125%;
+    margin: 4%;
+}
+
+header{
+    background: #fbff00;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+section{
+
+    display: inline-block;
+    width: 38.5%;
+    border: solid 2px black;
+    height: 250px;
+    float: right;
+    padding: 4px;
+    background: rgb(189, 103, 189);
+}
+
+section:hover{
+    background: linear-gradient(white,#CCFF00, rgb(189, 103, 189) );
+}
+
+.full{
+    width: 78%;
+    height: 100px;
+    float: right;
+}
+
+.foto{
+    width: 20%;
+    height: 362px;
+    float: left;
+}
+
+footer{
+    padding-top: 3px;
+    clear: both;
+}
+
+a{
+    display: inline-block;
+    font-weight: bold;
+    color: #CCFF00;
+    background-color:rgb(189, 103, 189);
+    text-align: center;
+    padding: 4px;
+}
+
+a:hover{
+    background-color: #CCFF00;
+    color: rgb(189, 103, 189);
+}
+
+h1{
+    transition-property: color, width, background, border-radius;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+}
+h1:hover{
+    color: rgb(255, 0, 55);
+}
+
+img{
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.frame {
+    text-align: center;
+    background-color: yellowgreen;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+  }
+  
+  .class2 {
+    border: dashed 7px rgb(189, 103, 189);;
+  }
+  
